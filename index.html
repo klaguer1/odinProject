@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en"> 
+    <style>
+        #centeredLogo{ 
+            position: absolute;
+            top: 35%;
+            left: 45%;
+             
+        }
+
+        #newNav{
+            position: absolute; 
+            left: 35%; 
+            top: 45%;
+            width: 40%;
+            
+        } 
+
+        #navBarLeft{ 
+            position: absolute; 
+            margin: 12px 0 0 7px;
+        }  
+
+        #navbarLeft a{
+            font-size: small;
+            font-style: Georgia; 
+            color: #000;
+
+
+        }
+
+        #navBarRight{ 
+            position: absolute; 
+            right: 30px;
+            margin: 12px 0 0 7px;
+        }  
+
+        #navbarRight a{
+            font-size: small;
+            font-style: Georgia; 
+            color: black;
+            
+
+        }
+
+
+        #footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+            line-height: 40px;
+            background-color: #f2f2f2; 
+            font-family: Arial, Helvetica, sans-serif;
+            border-top: 1px solid #e4e4e4;
+        }
+
+        #footer a {
+            color: #222;
+            opacity: 0.75;
+            text-decoration: none;
+            font-family: arial, sans-serif;
+            padding-left: 26px;
+        }
+
+        #footerLeft{
+
+            display: inline-block;
+
+            
+        }
+
+        #footerRight {
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            margin: 0px 0 0 15px;
+        }   
+
+        .signIn{
+            border: 1px solid;
+            color: white;
+            padding: 7px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: small;
+            font-weight: bold;
+            cursor: pointer;
+            background-color:#4285f4;
+            border-radius: 2px;
+        } 
+
+         .button{
+            position: fixed;
+            padding: 10px; 
+            height: 40px; 
+            width: 8%;
+            top: 50%;
+            left: 45%;
+            background: #f2f2f2;
+            border: 1px solid #f2f2f2;;
+            border-radius: 0;
+
+         } 
+
+         .button2{
+            position: fixed;
+            padding: 10px; 
+            height: 40px; 
+            width: 10%;
+            top: 50%;
+            left: 54%;
+            background: #f2f2f2;
+            border: 1px solid #f2f2f2;;
+            border-radius: 0;
+
+         } 
+
+         
+         
+    </style>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+    
+    <title>Google Clone</title>
+  </head>
+  <body>
+    
+     <div id="navBarLeft">
+         <a href="#" style="color: black;">About</a>
+         <a href="#" style="color: black;">Store</a> 
+     </div> 
+
+     <div id="navBarRight">
+         <a href="#" style="color: black;">Gmail</a>
+         <a href="#" style="color: black;">Images</a>
+         <button class="signIn">Sign In</button>
+     </div>
+
+
+    <div class="container-fluid">
+        <div id="centeredLogo">
+            <img src="google_logo.png" alt="Google Homepage", height="92" width="272">
+        </div>
+        <div id="newNav">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <button class="button">Google Search</button>
+            <button class="button2">I'm Feeling Lucky</button>
+        </div>
+        
+         
+    </div> 
+
+    <div id="footer">
+            <div id="footerLeft">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>  
+            <div id="footerRight">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+
+    </div>
+    
+  </body>
+</html>

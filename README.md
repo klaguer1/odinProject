@@ -1,0 +1,1 @@
+This is a clone of the google homepage. During this project I learned more about implementing the css styling, using dev tools, and troubleshooting on stack overflow.
